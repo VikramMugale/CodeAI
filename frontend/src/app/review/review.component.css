@@ -1,0 +1,28 @@
+.review-container {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #f4f6f9;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .code-block, .feedback-block {
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    max-height: 400px;
+    overflow-y: auto;
+  }
+  
+  h2, h3 {
+    margin-top: 1.5rem;
+  }
+  
+  .error {
+    color: red;
+    text-align: center;
+  }
+  
+  /* Add any additional custom styles that aren't covered by Bootstrap here */
+  
