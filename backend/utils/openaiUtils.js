@@ -5,7 +5,7 @@ const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY); // v0.24.0 use
 
 async function analyzeCode(code, language = "javascript") {
   try {
-    const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+    const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
 
     const prompt = `
 You are an expert code reviewer. Your task is to analyze the following ${language} code and provide a detailed review.
