@@ -7,7 +7,7 @@ import { Submission } from '../../shared/models/submission.model';
   providedIn: 'root',
 })
 export class ReviewService {
-  private apiUrl = 'http://localhost:5000/api/review';
+  private apiUrl = 'https://codeai-2.onrender.com/review';
 
   constructor(private http: HttpClient) {}
 
