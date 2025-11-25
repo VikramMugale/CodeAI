@@ -7,7 +7,7 @@ import { User } from '../../shared/models/user.model';
   providedIn: 'root',
 })
 export class AuthService {
-  private apiUrl = 'http://localhost:5000/api/auth';
+  private apiUrl = 'https://codeai-2.onrender.com/auth';
 
   constructor(private http: HttpClient) {}
 
