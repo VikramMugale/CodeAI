@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root',
 })
 export class UploadService {
-  private apiUrl = 'https://codeai-i3i8.onrender.com/api/upload';
+  private apiUrl = 'http://localhost:5000/api/upload';
 
   constructor(private http: HttpClient) {}
 
